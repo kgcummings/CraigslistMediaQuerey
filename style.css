@@ -67,6 +67,9 @@ button:hover{
     background-color:#F6F6F6;
     border-radius: 8px;
 }
+.peace2{
+  display:none;
+}
 
 ul{
     list-style-type: none;
@@ -145,8 +148,9 @@ float:none;
     }
 
     li a{
-      font-size: 90%;
-
+      font-size: 70%;
+display:block;
+width:100%;
     }
 
     li{
@@ -154,13 +158,9 @@ float:none;
     }
     form.example input[type=text] {
       padding: 10px;
-      font-size: 25px;
+      font-size: 20px;
       border: 3px solid #5C008E;
-      width: 100%;
-    }
-
-    images div{
-      width: 80px;
+      width: 90%;
     }
 
     .images{
@@ -175,10 +175,26 @@ float:none;
 }
     #products{
       font-family: 'IBM Plex Sans', sans-serif;
-      width:110%;
-      font-size:30px;
+      width:100%;
+      font-size:40px;
       left:0px;
       top:150px;
         position:absolute;
+    }
+
+    #leftsection{
+      background-color:transparent;
+    }
+
+    #logo{
+      display:none;
+    }
+
+    .peace2{
+      display:block;
+    }
+
+    .pic{
+max-width: 55%;
     }
   }

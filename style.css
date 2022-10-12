@@ -139,8 +139,8 @@ li a {
 
     #topban{
 left: 0px;
-width: 100%;
-float:none;
+width:100%;
+display:inline-block;
     }
 
     #cal{
@@ -154,9 +154,11 @@ width:100%;
     }
 
     li{
-      margin-left: 20px;
+      margin-left: 2%;
+width:90%;
+justify-content: space-evenly;
     }
-    
+
     form.example input[type=text] {
       padding: 10px;
       font-size: 20px;
@@ -193,7 +195,7 @@ width:100%;
     }
 
     .peace2{
-      display:block;
+      display:inline-block;
     }
 
     .pic{

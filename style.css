@@ -156,6 +156,7 @@ width:100%;
     li{
       margin-left: 20px;
     }
+    
     form.example input[type=text] {
       padding: 10px;
       font-size: 20px;
@@ -167,7 +168,7 @@ width:100%;
       justify-content:space-between;
       display:block;
       column-count: 2;
-      padding: 24px 25px;
+      margin-left: 10px;
     }
 
 .wuh{
@@ -176,7 +177,7 @@ width:100%;
     #products{
       font-family: 'IBM Plex Sans', sans-serif;
       width:100%;
-      font-size:40px;
+      font-size:30px;
       left:0px;
       top:150px;
         position:absolute;

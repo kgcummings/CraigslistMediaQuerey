@@ -127,6 +127,79 @@ li a {
     width: 250px;
   }
 
+  @media (min-width: 671px) and (max-width: 1200px) {
+    body {
+      font-size:23px;
+      filter:invert(5%)
+    }
+    .images {
+      max-width: 80%;
+      max-height: 80%;
+    }
+
+    #topban{
+left: 0px;
+width:100%;
+display:inline-block;
+    }
+
+    #cal{
+      display:none;
+    }
+
+    li a{
+      font-size: 70%;
+display:block;
+width:100%;
+    }
+
+    li{
+      margin-left: 2%;
+width:90%;
+justify-content: space-evenly;
+    }
+
+    form.example input[type=text] {
+      padding: 10px;
+      font-size: 20px;
+      border: 3px solid #5C008E;
+      width: 90%;
+    }
+
+    .images{
+      justify-content:space-between;
+    }
+
+    #products{
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size:30px;
+      top:150px;
+        position:absolute;
+    }
+
+    #leftsection{
+display:block;
+position: fixed;
+    }
+
+    .wuh{
+      width:80%
+    }
+
+    .pic{
+max-width: 55%;
+    }
+
+    .listbutt{
+      width:60%;
+      font-size:60%;
+      position:fixed;
+      padding: 3px;
+      margin-top: 15px;
+      margin-left: 8px;
+    }
+  }
+
   @media (min-width: 0px) and (max-width: 670px) {
     body {
       font-size:20px;

@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 25px;
+    border: 3px solid #5C008E;
+    border-radius: 10px;
+    float: center;
+    width: 200%;
+    background: #f1f1f1;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+h1{
+    color: #5C008E;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+#cal{
+    background-color:#D1D6FF;
+    border-radius: 8px;
+    padding:8px;
+    
+}
+
+
+#leftsection{
+    background: #F6F6F6;
+    position: fixed;
+    top:0;
+    left:0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    height:100%;
+    font-size: 20px
+}
+
+.listbutt{
+background-color: #D1D6FF;
+border: none;
+padding: 7px 16px;
+display: inline-block;
+font-size: 19px;
+color: #5C008E;
+border-radius: 8px;
+font-family: 'IBM Plex Sans', sans-serif;
+}
+
+button:hover{
+    background-color: #bbc1e9;
+  }
+
+.peace{
+    float:left
+}
+
+#days{
+    color: #5C008E;
+    background-color:#F6F6F6;
+    border-radius: 8px;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:4px;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+}
+li{
+  margin-left: 120px;
+}
+li a {
+    display: flex;
+    text-decoration: none;
+    font-size: 26px;
+    color: #5C008E;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+
+  li a:hover{
+    background-color: #bbc1e9;
+  }
+
+  body{
+    color: #5C008E;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  
+  #topban{
+    background-color:#D1D6FF;
+    left: 240px;
+    top:80px;
+    position:absolute;
+    width:82%; 
+    display:flex;
+
+  }
+
+  #products{
+    font-size:50px;
+    left:260px;
+    top:150px;
+    position:absolute;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+
+  .images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .images div{
+    width: 250px;
+  }
+
+  @media (min-width: 0px) and (max-width: 800px) {
+    body {
+      font-size:20px;
+      filter:invert(10%)
+    }
+    .images {
+      max-width: 80%;
+      max-height: 80%;
+    }
+
+    #topban{
+left: 0px;
+width: 110%;
+float:none;
+    }
+
+    #leftsection{
+      display:none;
+    }
+
+    li a{
+      font-size: 90%;
+    }
+
+    li{
+      margin-left: 20px;
+    }
+    form.example input[type=text] {
+      padding: 10px;
+      font-size: 25px;
+      border: 3px solid #5C008E;
+      width: 100%;
+    }
+
+    images div{
+      width: 80px;
+    }
+
+    #products{
+      font-size:50px;
+      left:0px;
+      top:150px;
+      position:absolute;
+      font-family: 'IBM Plex Sans', sans-serif;
+    }
+
+    .peace{
+      display:flex;
+    }
+  }
